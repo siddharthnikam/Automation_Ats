@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="testcases.Jobs_AddJob">
+        <methods>
+          <include name="job_Module_Navigation"/>
+          <include name="initialize_Driver"/>
+          <include name="Login"/>
+          <include name="add_New_Job"/>
+        </methods>
+      </class> <!-- testcases.Jobs_AddJob -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
